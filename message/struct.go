@@ -482,6 +482,7 @@ type Filter interface {
 }
 type FilterAnd []Filter
 type FilterOr []Filter
+
 type FilterNot struct {
 	Filter
 }
